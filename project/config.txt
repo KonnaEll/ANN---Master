@@ -1,0 +1,2 @@
+epochs=20
+data_path = 15-Scene/15-Scene

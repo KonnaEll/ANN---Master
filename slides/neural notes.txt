@@ -1,0 +1,28 @@
+convergence: a neural network can be said to have converged when the training and validation error stops decreasing. that means that the neural has learnt what it had to learn and it is ready for use.
+
+output of the model -> predicted probability distribution
+
+convolutional neural networks: 1) weights are shared over the space? that means all the weights of the neurons?
+
+valid convolution: every considered point lies within the input(size of input>size of output)
+full convolution: at least one value of the kernel covers the input(size of input < size of output)
+same convolution: kernel evaluated(centered) at every location of the input(size of input == size of output)
+
+
+activation function-sigmoid: formula that determines the output of a neuron. the sigmoid function(logistic function) squashes the output of a neuron to [0,1] and makes it easy for binary classification tasks.
+f_σ(x) = 1/(1+e^(-x)), where x is the weighted sum of inputs to the neuron plus a bias term(b).
+sigmoid function characteristics: -non linear, -output range [0,1]
+
+loss function-cross entropy: loss function measures how well the predictions match the true labels of the training data. cross-entropy is a commonly used loss function for classification problems(especially when output is interpreted as probabilities). for binary classification with a sigmoid activation function, the cross-entropy loss function is:
+L(y,y^)=−[ylog(y^​)+(1−y)log(1−y^​)], where y is the true label(0,1) and y^ is the predicted probability of the positive class.
+
+beyond binary classification-softmax: softmax is an activation function commonly used in the output layer of a nn when dealing with multi-class classification problems. it is a more general way of sigmoid function and it handles multiple classes by converting raw scores into probabilities.
+f_sm(x) = e^x/Σ_k,j=1(e^(x*j)), where x is the raw score for class and k is the total number of classes. softmax ensures that the output probabilities sum up to 1.
+
+beyond binary classification-softmax+cross entropy: with the softmax, the cross-entropy loss function is typically used in conjuction.
+L(y,y^)=−∑_i=1,N(y_i*log(y^_i), where y_i is the true probability distribution over classes and y^_i is the predicted probability distribution over classes. the goal during training is to minimize this cross-entropy loss function.
+
+
+
+
+activation functions determine the output of a neuron, loss functions measure the error between predictions and true labels, softmax extends binary classification to multi-class scenarios, and softmax with cross-entropy is commonly used for multi-class classification tasks in neural networks.

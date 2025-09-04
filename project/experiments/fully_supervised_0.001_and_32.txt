@@ -1,0 +1,22 @@
+Epoch 1, Train Loss: 0.7338, Validation Loss: 0.5383, Validation Accuracy: 84.8384%
+Epoch 2, Train Loss: 0.3459, Validation Loss: 0.4527, Validation Accuracy: 88.1828%
+Epoch 3, Train Loss: 0.2462, Validation Loss: 0.5111, Validation Accuracy: 87.4025%
+Epoch 4, Train Loss: 0.2310, Validation Loss: 0.4791, Validation Accuracy: 89.7436%
+Epoch 5, Train Loss: 0.1720, Validation Loss: 0.2547, Validation Accuracy: 92.5307%
+Epoch 6, Train Loss: 0.1426, Validation Loss: 0.4571, Validation Accuracy: 90.0780%
+Epoch 7, Train Loss: 0.1268, Validation Loss: 0.4407, Validation Accuracy: 90.4125%
+Epoch 8, Train Loss: 0.1299, Validation Loss: 0.7283, Validation Accuracy: 91.0814%
+Epoch 9, Train Loss: 0.1273, Validation Loss: 0.5439, Validation Accuracy: 87.9599%
+Epoch 10, Train Loss: 0.1240, Validation Loss: 0.3453, Validation Accuracy: 90.6355%
+Epoch 11, Train Loss: 0.1017, Validation Loss: 0.3760, Validation Accuracy: 90.5240%
+Epoch 12, Train Loss: 0.1282, Validation Loss: 0.3585, Validation Accuracy: 91.3043%
+Epoch 13, Train Loss: 0.1017, Validation Loss: 0.3373, Validation Accuracy: 90.8584%
+Epoch 14, Train Loss: 0.0811, Validation Loss: 0.4551, Validation Accuracy: 87.9599%
+Epoch 15, Train Loss: 0.1231, Validation Loss: 0.3862, Validation Accuracy: 90.8584%
+Epoch 16, Train Loss: 0.0835, Validation Loss: 0.3111, Validation Accuracy: 92.7536%
+Epoch 17, Train Loss: 0.0926, Validation Loss: 0.3890, Validation Accuracy: 89.1862%
+Epoch 18, Train Loss: 0.0773, Validation Loss: 0.3280, Validation Accuracy: 92.0847%
+Epoch 19, Train Loss: 0.0850, Validation Loss: 0.4360, Validation Accuracy: 90.4125%
+Epoch 20, Train Loss: 0.1179, Validation Loss: 0.4054, Validation Accuracy: 92.1962%
+
+Best Accuracy: 92.75% at epoch 16
