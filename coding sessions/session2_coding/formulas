@@ -1,9 +1,0 @@
-we have X, W1, W2 as input and the weights.
-to get to the 1st layer we do Z1=X*W1 and then Z1_act = relu(Z1).
-to get to the 2nd layer we do out=Z1_act*W2 and then probs=softmax(out)
-loss function = (out - y)^2
-
-the backpropagation: θLoss/θW2 = (θLoss/θout)*(θout/θW2)
-loss' = 2(out-y)
-out = Z1_act*W2
-out' = Z1_act
